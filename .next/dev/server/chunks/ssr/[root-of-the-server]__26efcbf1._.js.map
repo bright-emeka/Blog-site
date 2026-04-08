@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/HomePC/welcome/welcome-page/bLOG%20WEBSITE/pages/404.tsx"],"sourcesContent":["import Link from 'next/link';\r\n\r\nexport default function NotFound() {\r\n  return (\r\n    <div className=\"text-center py-20\">\r\n      <h1 className=\"text-4xl font-bold\">404</h1>\r\n      <p className=\"mt-4\">Page not found.</p>\r\n      <p className=\"mt-6\">\r\n        <Link href=\"/\">\r\n          <a className=\"underline\">Return home</a>\r\n        </Link>\r\n      </p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,qKAAC;QAAI,WAAU;;0BACb,qKAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,qKAAC;gBAAE,WAAU;0BAAO;;;;;;0BACpB,qKAAC;gBAAE,WAAU;0BACX,cAAA,qKAAC,gIAAI;oBAAC,MAAK;8BACT,cAAA,qKAAC;wBAAE,WAAU;kCAAY;;;;;;;;;;;;;;;;;;;;;;AAKnC"}}]
+}
