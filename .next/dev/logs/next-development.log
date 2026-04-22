@@ -1,6 +1,607 @@
-[00:00:03.802] Server  LOG      ✓ Ready in 2.6s
-[00:00:19.990] Server  LOG      ○ Compiling / ...
-[00:01:50.174] Server  WARN     ⚠ Cross origin request detected from 192.168.215.149 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:02:19.220] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
-[00:02:19.252] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+[00:00:05.445] Server  LOG      ✓ Ready in 3.5s
+[00:00:16.550] Server  LOG      ○ Compiling / ...
+[00:02:00.724] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+[00:06:50.056] Server  LOG      ✓ Compiled in 414ms
+[00:06:50.142] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:06:56.568] Server  LOG      ✓ Compiled in 182ms
+[00:06:56.679] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[00:06:56.679] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[00:06:56.679] Browser ERROR   uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+[00:06:56.679] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:07:03.056] Server  LOG      ✓ Compiled in 177ms
+[00:07:03.134] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:07:05.209] Server  LOG      ✓ Compiled in 304ms
+[00:07:05.270] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:07:08.955] Server  LOG      ✓ Compiled in 175ms
+[00:07:09.031] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:07:11.207] Server  LOG      ✓ Compiled in 148ms
+[00:07:11.285] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:07:13.222] Server  LOG      ✓ Compiled in 292ms
+[00:07:13.300] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:07:36.740] Server  LOG      ✓ Compiled in 211ms
+[00:07:36.811] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:07:48.362] Server  LOG      ✓ Compiled in 208ms
+[00:07:48.433] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:08:01.248] Server  LOG      ✓ Compiled in 204ms
+[00:08:01.322] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:08:02.576] Server  LOG      ✓ Compiled in 141ms
+[00:08:02.646] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:08:07.380] Server  LOG      ✓ Compiled in 221ms
+[00:08:07.458] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:08:22.499] Server  LOG      ✓ Compiled in 225ms
+[00:08:22.576] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:08:25.846] Server  LOG      ✓ Compiled in 85ms
+[00:08:25.954] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:3: Unknown word transform
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:25.954] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:3: Unknown word transform
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:29.392] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:3: Unknown word transform
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:29.393] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:3: Unknown word transform
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:31.565] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:86:3: Unknown word box-shadow
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:31.565] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:86:3: Unknown word box-shadow
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:33.659] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:86:13: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:33.659] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:86:13: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:39.951] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:39.952] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:46.388] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:46.388] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:48.707] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:48.707] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:51.200] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:51.200] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:18: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:53.483] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:28: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:53.484] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:28: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:55.852] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:34: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:55.852] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:34: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:58.707] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:34: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:08:58.708] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:34: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:09:01.895] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:34: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:09:01.896] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:34: Missed semicolon
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:09:05.883] Server  LOG      ✓ Compiled in 1651ms
+[00:09:05.958] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:09:23.100] Server  LOG      ✓ Compiled in 190ms
+[00:09:23.173] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:09:33.392] Server  LOG      ✓ Compiled in 164ms
+[00:09:33.463] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:09:44.830] Server  LOG      ✓ Compiled in 169ms
+[00:09:44.908] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:09:46.006] Server  LOG      ✓ Compiled in 150ms
+[00:09:46.082] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:09:55.454] Server  LOG      ✓ Compiled in 183ms
+[00:09:55.531] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:09:57.563] Server  LOG      ✓ Compiled in 155ms
+[00:09:57.640] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:02.010] Server  LOG      ✓ Compiled in 153ms
+[00:10:02.095] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:13.549] Server  LOG      ✓ Compiled in 161ms
+[00:10:13.626] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:24.575] Server  LOG      ✓ Compiled in 43ms
+[00:10:24.677] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:3: Unknown word transform
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:10:24.677] Browser ERROR   ./blog-site/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\HomePC\blog-site\styles\globals.css:85:3: Unknown word transform
+    [at Input.error (turbopack:///[project]/blog-site/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/blog-site/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/blog-site/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/blog-site/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Browser:
+    ./blog-site/styles/globals.css
+    ./blog-site/pages/_app.tsx
+[00:10:27.578] Server  LOG      ✓ Compiled in 1644ms
+[00:10:27.655] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:31.235] Server  LOG      ✓ Compiled in 218ms
+[00:10:31.330] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:34.055] Server  LOG      ✓ Compiled in 157ms
+[00:10:34.126] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:38.625] Server  LOG      ✓ Compiled in 180ms
+[00:10:38.688] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:46.989] Server  LOG      ✓ Compiled in 185ms
+[00:10:47.068] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:10:53.925] Server  LOG      ✓ Compiled in 154ms
+[00:10:54.003] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:04.671] Server  LOG      ✓ Compiled in 179ms
+[00:11:04.748] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:06.494] Server  LOG      ✓ Compiled in 191ms
+[00:11:06.571] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:07.841] Server  LOG      ✓ Compiled in 218ms
+[00:11:07.917] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:14.051] Server  LOG      ✓ Compiled in 235ms
+[00:11:14.129] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:18.561] Server  LOG      ✓ Compiled in 223ms
+[00:11:18.640] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:20.578] Server  LOG      ✓ Compiled in 297ms
+[00:11:20.655] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:24.508] Server  LOG      ✓ Compiled in 329ms
+[00:11:24.569] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:28.270] Server  LOG      ✓ Compiled in 308ms
+[00:11:28.347] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:43.716] Server  LOG      ✓ Compiled in 280ms
+[00:11:43.794] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:50.639] Server  LOG      ✓ Compiled in 221ms
+[00:11:50.717] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:11:56.785] Server  LOG      ✓ Compiled in 280ms
+[00:11:56.863] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:01.676] Server  LOG      ✓ Compiled in 220ms
+[00:12:01.755] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:06.809] Server  LOG      ✓ Compiled in 273ms
+[00:12:06.885] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:08.158] Server  LOG      ✓ Compiled in 203ms
+[00:12:08.253] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:20.541] Server  LOG      ✓ Compiled in 199ms
+[00:12:20.619] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:21.883] Server  LOG      ✓ Compiled in 223ms
+[00:12:21.959] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:27.268] Server  LOG      ✓ Compiled in 398ms
+[00:12:27.344] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:28.481] Server  LOG      ✓ Compiled in 255ms
+[00:12:28.558] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:29.511] Server  LOG      ✓ Compiled in 191ms
+[00:12:29.588] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:32.868] Server  LOG      ✓ Compiled in 181ms
+[00:12:32.943] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:42.494] Server  LOG      ✓ Compiled in 308ms
+[00:12:42.572] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:54.763] Server  LOG      ✓ Compiled in 275ms
+[00:12:54.840] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:12:56.029] Server  LOG      ✓ Compiled in 260ms
+[00:12:56.107] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:01.516] Server  LOG      ✓ Compiled in 266ms
+[00:13:01.593] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:03.559] Server  LOG      ✓ Compiled in 259ms
+[00:13:03.637] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:11.031] Server  LOG      ✓ Compiled in 213ms
+[00:13:11.109] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:16.097] Server  LOG      ✓ Compiled in 240ms
+[00:13:16.174] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:17.813] Server  LOG      ✓ Compiled in 305ms
+[00:13:17.890] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:21.892] Server  LOG      ✓ Compiled in 351ms
+[00:13:21.971] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:22.217] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+[00:13:37.420] Server  LOG      ✓ Compiled in 264ms
+[00:13:37.497] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:51.918] Server  LOG      ✓ Compiled in 234ms
+[00:13:51.995] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:13:54.542] Server  LOG      ✓ Compiled in 267ms
+[00:13:54.627] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:14:05.345] Server  LOG      ✓ Compiled in 187ms
+[00:14:05.424] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:14:06.383] Server  LOG      ✓ Compiled in 215ms
+[00:14:06.461] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:14:32.970] Server  LOG      ✓ Compiled in 230ms
+[00:14:33.048] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:14:34.158] Server  LOG      ✓ Compiled in 287ms
+[00:14:34.236] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css
+[00:14:40.294] Server  LOG      ✓ Compiled in 345ms
+[00:14:40.372] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/blog-site_styles_globals_e7056e93.css

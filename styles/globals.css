@@ -82,7 +82,7 @@ body {
 
 /* Micro-interactions with Hover Effects */
 .card:hover {
-  transform: translateY(-10px) rotate(2deg);
+  transform: translateY(-10px) rotate(2deg) skew(2deg);
   box-shadow: 0 20px 40px rgba(0,0,0,0.2);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }

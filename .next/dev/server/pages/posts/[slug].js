@@ -1,9 +1,9 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/pages/posts/[slug].js")
-R.c("server/chunks/ssr/3f2e0_next_dist_fadf88e2._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__dd08d793._.js")
-R.c("server/chunks/ssr/3f2e0_079edac6._.js")
+R.c("server/chunks/ssr/725d6_next_dist_6c016886._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__17905a6d._.js")
+R.c("server/chunks/ssr/725d6_24ccf916._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__e6a4d965._.js")
-R.c("server/chunks/ssr/3f2e0_0626aa8b._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__049138ac._.js")
-R.m("[project]/bLOG WEBSITE/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/bLOG WEBSITE/pages/posts/[slug].tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/bLOG WEBSITE/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/bLOG WEBSITE/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)")
-module.exports=R.m("[project]/bLOG WEBSITE/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/bLOG WEBSITE/pages/posts/[slug].tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/bLOG WEBSITE/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/bLOG WEBSITE/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports
+R.c("server/chunks/ssr/725d6_61008f64._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__41ae424a._.js")
+R.m("[project]/blog-site/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/blog-site/pages/posts/[slug].tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/blog-site/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/blog-site/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)")
+module.exports=R.m("[project]/blog-site/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/blog-site/pages/posts/[slug].tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/blog-site/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/blog-site/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports
